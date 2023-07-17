@@ -1,0 +1,158 @@
+.section__two {
+  background-image: url("../public/bg3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  color: white;
+}
+
+.content__image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.wings-img {
+  width: 250px;
+}
+
+.content__details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content__title {
+  font-size: var(--text-2xl);
+}
+
+.content__subtitle {
+  font-size: var(--text-sm);
+  font-weight: 400;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .content__image {
+    margin-top: 3rem;
+  }
+  .wings-img {
+    width: 300px;
+  }
+
+  .content__details {
+    margin-bottom: 3rem;
+  }
+
+  .content__title {
+    font-size: var(--text-3xl);
+  }
+
+  .content__subtitle {
+    font-size: var(--text-base);
+  }
+}
+/* sm */
+@media (min-width: 640px) {
+  .wings-img {
+    width: 350px;
+  }
+
+  .content__details {
+    gap: 2rem;
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  .section__two {
+    flex-direction: row;
+  }
+  .content__details {
+    align-items: start;
+    text-align: start;
+  }
+
+  .content__image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .wings-img {
+    width: 300px;
+  }
+
+  .content__details {
+    margin-bottom: 0;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .content__image {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .wings-img {
+    width: 350px;
+  }
+  .content__title {
+    font-size: var(--text-4xl);
+  }
+
+  .content__subtitle {
+    font-size: var(--text-lg);
+    margin-right: 3rem;
+  }
+}
+/* xl */
+@media (min-width: 1280px) {
+  .content__image {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .wings-img {
+    width: 400px;
+  }
+  .content__title {
+    font-size: var(--text-5xl);
+  }
+
+  .content__subtitle {
+    font-size: var(--text-2xl);
+    margin-right: 4rem;
+  }
+  .section__two__btn {
+    font-size: var(--text-lg);
+  }
+}
+/* 2xl  */
+@media (min-width: 1536px) {
+  .wings-img {
+    width: 500px;
+  }
+  .content__image {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .content__title {
+    font-size: var(--text-6xl);
+  }
+
+  .content__subtitle {
+    font-size: var(--text-3xl);
+    margin-right: 5rem;
+  }
+  .section__two__btn {
+    font-size: var(--text-xl);
+  }
+}

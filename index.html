@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/hero.css" />
+    <link rel="stylesheet" href="styles/section-1.css" />
+    <link rel="stylesheet" href="styles/section-2.css" />
+    <link rel="stylesheet" href="styles/section-3.css" />
+    <link rel="stylesheet" href="styles/section-4.css" />
+    <link rel="stylesheet" href="styles/section-5.css" />
+    <link rel="stylesheet" href="styles/section-6.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/modern-normalize.css" />
+  </head>
+  <body>
+    <div class="header-hero__section">
+      <header class="header__section container">
+        <img class="logo-img" src="public/logo.png" />
+        <nav>
+          <ul class="header__menu">
+            <li><a class="header__links" href="#">home</a></li>
+            <li><a class="header__links" href="#">product</a></li>
+            <li><a class="header__links" href="#">promo</a></li>
+            <li><a class="header__links" href="#">about</a></li>
+            <li><a class="header__links" href="#">contact</a></li>
+            <button class="search__btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </ul>
+          <button class="toggle__btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </nav>
+      </header>
+      <section class="hero__section container">
+        <h1 class="hero__title">Discount 50%</h1>
+        <p class="hero__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing<br />elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <button class="hero__btn">Order Now</button>
+      </section>
+    </div>
+    <main>
+      <section class="section__one container">
+        <h2 class="section__one__title">Popular menu</h2>
+        <p class="section__one__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <div class="package__container">
+          <div class="package">
+            <img
+              class="package-img"
+              src="public/package1.png"
+              alt="package_1"
+            />
+            <h3 class="package__title">package 1</h3>
+            <p class="package__subtitle">
+              Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="package">
+            <img
+              class="package-img"
+              src="public/package2.png"
+              alt="package_2"
+            />
+            <h3 class="package__title">package 2</h3>
+            <p class="package__subtitle">
+              Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="package">
+            <img
+              class="package-img"
+              src="public/package3.png"
+              alt="package_3"
+            />
+            <h3 class="package__title">package 3</h3>
+            <p class="package__subtitle">
+              Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section__two container">
+        <div class="content__image">
+          <img class="wings-img" src="public/chicken-wings.png" alt="" />
+        </div>
+        <div class="content__details">
+          <h3 class="content__title">Chicken wings</h3>
+          <p class="content__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+          <button class="hero__btn section__two__btn">Order Now</button>
+        </div>
+      </section>
+      <section class="section__three section__one container">
+        <h2 class="section__three__title section__one__title">
+          our statistics
+        </h2>
+        <p class="section__three__subtitle section__one__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <div class="statistics__container package__container">
+          <div class="statistics">
+            <h1 class="statistics__title section__one__title">2k+</h1>
+            <p class="statistics__subtitle package__title">customer</p>
+          </div>
+          <div class="statistics">
+            <h1 class="statistics__title section__one__title">500</h1>
+            <p class="statistics__subtitle package__title">store</p>
+          </div>
+          <div class="statistics">
+            <h1 class="statistics__title section__one__title">50</h1>
+            <p class="statistics__subtitle package__title">chef</p>
+          </div>
+        </div>
+      </section>
+      <!-- <section></section>
+      <section></section>
+      <section></section> -->
+    </main>
+    <!-- <footer></footer> -->
+    <script type="module" src="./script/main.js"></script>
+  </body>
+</html>
