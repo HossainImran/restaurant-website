@@ -1,3 +1,5 @@
+/* Used Section Two's CSS to avoid typing out the same CSS */
+
 .section__four {
   background-image: url("../public/bg5.png");
 }
@@ -5,6 +7,8 @@
 .satay-img:hover {
   transform: translate(-10px, 0px);
 }
+
+/* Making the Section Four responsive */
 
 @media (min-width: 768px) {
   .section__four {

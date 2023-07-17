@@ -21,6 +21,7 @@ Sections
 
 body {
   margin: 0; /* Remove the margin in all browsers. */
+  padding: 0; /* Remove the padding in all browsers. */
 }
 
 /*

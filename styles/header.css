@@ -36,6 +36,8 @@
 
 .dropdown__menu {
   display: none;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,7 +53,6 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  transform: translateY(50%);
   position: relative;
 }
 
@@ -95,6 +96,8 @@
   right: 4%;
   top: 4%;
 }
+
+/* Making the Header Section responsive */
 
 /* xs */
 /* @media (min-width: 475px) {} */

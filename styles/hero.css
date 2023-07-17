@@ -38,6 +38,8 @@
   transform: translateY(-6px);
 }
 
+/* Making the Hero Section responsive */
+
 /* xs */
 @media (min-width: 475px) {
   .hero__title {

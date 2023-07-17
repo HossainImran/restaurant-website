@@ -77,6 +77,8 @@
   font-size: var(--text-sm);
 }
 
+/* Making the Section 1 responsive */
+
 /* xs */
 @media (min-width: 475px) {
   .section__one__subtitle {

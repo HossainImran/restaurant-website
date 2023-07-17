@@ -1,3 +1,5 @@
+/* Used some CSS from Section One to avoid typing out the same CSS */
+
 .section__six {
   background-image: url("../public/bg7.png");
   padding: 6rem 1rem;
@@ -38,6 +40,8 @@
   border-radius: 4px;
   padding: 12px 30px;
 }
+
+/* Making the Section Six responsive */
 
 /* xs */
 @media (min-width: 475px) {

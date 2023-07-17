@@ -9,4 +9,5 @@ import '../styles/section-4.css';
 import '../styles/section-5.css';
 import '../styles/section-6.css';
 import '../styles/style.css';
+import './mobile';
 

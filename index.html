@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Linking Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -10,7 +10,8 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Restaurant Website</title>
+    <!-- Linking CSS Files -->
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/hero.css" />
@@ -25,6 +26,7 @@
   </head>
   <body>
     <div class="header-hero__section">
+      <!-- Header Section -->
       <header class="header__section container">
         <a href="#"><img class="logo-img" src="public/logo.png" /></a>
         <nav>
@@ -63,6 +65,9 @@
           </button>
         </nav>
       </header>
+      <!-- End of Header section -->
+
+      <!-- Dropdown Menu Section -->
       <div class="dropdown__menu">
         <button class="toggle__btn2">
           <svg
@@ -100,6 +105,9 @@
           </ul>
         </nav>
       </div>
+      <!-- End of Dropdown Menu Section -->
+
+      <!-- Hero Section -->
       <section class="hero__section container">
         <h1 class="hero__title">Discount 50%</h1>
         <p class="hero__subtitle">
@@ -108,8 +116,10 @@
         </p>
         <a href="#"><button class="hero__btn">Order Now</button></a>
       </section>
+      <!-- End of Hero Section -->
     </div>
     <main>
+      <!-- Section One  -->
       <section class="section__one container">
         <h2 class="section__one__title">Popular menu</h2>
         <p class="section__one__subtitle">
@@ -152,6 +162,9 @@
           </div>
         </div>
       </section>
+      <!-- End of Section One -->
+
+      <!-- Section Two  -->
       <section class="section__two container">
         <div class="content__image">
           <img class="wings-img" src="public/chicken-wings.png" alt="" />
@@ -167,6 +180,11 @@
           >
         </div>
       </section>
+      <!-- End of Section Two -->
+
+      <!-- Section Three  -->
+
+      <!-- Used Section One to avoid typing out the same CSS -->
       <section class="section__three section__one container">
         <h2 class="section__three__title section__one__title">
           our statistics
@@ -190,6 +208,11 @@
           </div>
         </div>
       </section>
+      <!-- End of Section Three -->
+
+      <!-- Section Four  -->
+
+      <!-- Used Section Two to avoid typing out the same CSS -->
       <section class="section__four section__two container">
         <div class="content__image">
           <img
@@ -207,6 +230,9 @@
           <button class="hero__btn section__two__btn">Order Now</button>
         </div>
       </section>
+      <!-- End of Section Four -->
+
+      <!-- Section Five  -->
       <section class="section__five container">
         <div class="chef__content">
           <img class="chef-img" src="public/chef.png" alt="" />
@@ -217,6 +243,11 @@
           <a href="#"> <h2 class="chef__title">Luella Harris</h2></a>
         </div>
       </section>
+      <!-- End of Section Five -->
+
+      <!-- Section Six  -->
+
+      <!-- Used Section One to avoid typing out the same CSS -->
       <section class="section__six section__one container">
         <h2 class="section__six__title section__one__title">
           Don’t Miss Our Update
@@ -230,7 +261,10 @@
           <button class="email__btn">Subscribe</button>
         </div>
       </section>
+      <!-- End of Section Six -->
     </main>
+
+    <!-- Footer Section -->
     <footer class="footer__section container">
       <div class="left__side">
         <h3 class="left__side__title">Title Here</h3>
@@ -279,7 +313,10 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="./script/main.js"></script>
-    <script type="module" src="./script/mobile.js"></script>
+    <!-- End of Footer Section -->
+
+    <!-- Linking JS Files -->
+    <script type="module" src="script/main.js"></script>
+    <script type="module" src="script/mobile.js"></script>
   </body>
 </html>

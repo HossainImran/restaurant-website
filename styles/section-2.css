@@ -49,6 +49,8 @@
   font-weight: 400;
 }
 
+/* Making the Section 2 responsive */
+
 /* xs */
 @media (min-width: 475px) {
   .content__image {

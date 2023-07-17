@@ -47,6 +47,8 @@
   width: 100%;
 }
 
+/* Making the Section Five responsive */
+
 /* xs */
 @media (min-width: 475px) {
   .chef__content {

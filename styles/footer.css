@@ -70,6 +70,8 @@
   text-decoration: underline;
 }
 
+/* Making the Footer Section responsive */
+
 /* xs */
 @media (min-width: 475px) {
   .footer__title {
