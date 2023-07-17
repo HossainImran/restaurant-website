@@ -42,11 +42,35 @@
 
 .package-img {
   width: 200px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.package-img:hover {
+  opacity: 70%;
 }
 
 .package__title {
   font-size: var(--text-xl);
   text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  color: #333;
+}
+
+.package__title::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.package__title:hover::after {
+  width: 100%;
 }
 
 .package__subtitle {

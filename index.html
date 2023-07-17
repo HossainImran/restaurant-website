@@ -26,7 +26,7 @@
   <body>
     <div class="header-hero__section">
       <header class="header__section container">
-        <img class="logo-img" src="public/logo.png" />
+        <a href="#"><img class="logo-img" src="public/logo.png" /></a>
         <nav>
           <ul class="header__menu">
             <li><a class="header__links" href="#">home</a></li>
@@ -63,13 +63,50 @@
           </button>
         </nav>
       </header>
+      <div class="dropdown__menu">
+        <button class="toggle__btn2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <nav>
+          <ul class="mobile__menu">
+            <li><a class="mobile__links" href="#">home</a></li>
+            <li><a class="mobile__links" href="#">product</a></li>
+            <li><a class="mobile__links" href="#">promo</a></li>
+            <li><a class="mobile__links" href="#">about</a></li>
+            <li><a class="mobile__links" href="#">contact</a></li>
+            <button class="mobile__btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </ul>
+        </nav>
+      </div>
       <section class="hero__section container">
         <h1 class="hero__title">Discount 50%</h1>
         <p class="hero__subtitle">
           Lorem ipsum dolor sit amet, consectetur adipiscing<br />elit. Vivamus
           lacinia odio vitae vestibulum vestibulum.
         </p>
-        <button class="hero__btn">Order Now</button>
+        <a href="#"><button class="hero__btn">Order Now</button></a>
       </section>
     </div>
     <main>
@@ -86,7 +123,7 @@
               src="public/package1.png"
               alt="package_1"
             />
-            <h3 class="package__title">package 1</h3>
+            <a href="#"><h3 class="package__title">package 1</h3></a>
             <p class="package__subtitle">
               Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.
             </p>
@@ -97,7 +134,7 @@
               src="public/package2.png"
               alt="package_2"
             />
-            <h3 class="package__title">package 2</h3>
+            <a href="#"><h3 class="package__title">package 2</h3></a>
             <p class="package__subtitle">
               Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.
             </p>
@@ -108,7 +145,7 @@
               src="public/package3.png"
               alt="package_3"
             />
-            <h3 class="package__title">package 3</h3>
+            <a href="#"><h3 class="package__title">package 3</h3></a>
             <p class="package__subtitle">
               Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.
             </p>
@@ -125,7 +162,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             lacinia odio vitae vestibulum vestibulum.
           </p>
-          <button class="hero__btn section__two__btn">Order Now</button>
+          <a href="#">
+            <button class="hero__btn section__two__btn">Order Now</button></a
+          >
         </div>
       </section>
       <section class="section__three section__one container">
@@ -151,11 +190,96 @@
           </div>
         </div>
       </section>
-      <!-- <section></section>
-      <section></section>
-      <section></section> -->
+      <section class="section__four section__two container">
+        <div class="content__image">
+          <img
+            class="satay-img wings-img"
+            src="public/chicken-satay.png"
+            alt=""
+          />
+        </div>
+        <div class="four__content__details content__details">
+          <h3 class="content__title">Chicken Satay</h3>
+          <p class="content__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+          <button class="hero__btn section__two__btn">Order Now</button>
+        </div>
+      </section>
+      <section class="section__five container">
+        <div class="chef__content">
+          <img class="chef-img" src="public/chef.png" alt="" />
+          <p class="chef__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+          <a href="#"> <h2 class="chef__title">Luella Harris</h2></a>
+        </div>
+      </section>
+      <section class="section__six section__one container">
+        <h2 class="section__six__title section__one__title">
+          Don’t Miss Our Update
+        </h2>
+        <p class="section__six__subtitle section__one__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <div class="email__section">
+          <input class="email__input" type="text" placeholder="Your Email" />
+          <button class="email__btn">Subscribe</button>
+        </div>
+      </section>
     </main>
-    <!-- <footer></footer> -->
+    <footer class="footer__section container">
+      <div class="left__side">
+        <h3 class="left__side__title">Title Here</h3>
+        <p class="left__side__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+          dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim
+          enim.
+        </p>
+        <div class="icons">
+          <a href="#"
+            ><img class="icons-img" src="public/Instagram.png" alt=""
+          /></a>
+          <a href="#"
+            ><img class="icons-img" src="public/Facebook.png" alt=""
+          /></a>
+          <a href="#"
+            ><img class="icons-img" src="public/Twitter.png" alt=""
+          /></a>
+          <a href="#"
+            ><img class="icons-img" src="public/WhatsApp.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="right__side">
+        <div class="footer__content">
+          <h3 class="footer__title">About</h3>
+          <a href="#">History</a>
+          <a href="#">Our Team</a>
+          <a href="#">Brand Guidelines</a>
+          <a href="#">Terms & Condition</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Services</h3>
+          <a href="#">How to Order</a>
+          <a href="#">Our Product</a>
+          <a href="#">Order Status</a>
+          <a href="#">Promo</a>
+          <a href="#">Payment Method</a>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Other</h3>
+          <a href="#">Contact Us</a>
+          <a href="#">Help</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="./script/main.js"></script>
+    <script type="module" src="./script/mobile.js"></script>
   </body>
 </html>

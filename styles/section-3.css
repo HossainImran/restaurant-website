@@ -11,6 +11,11 @@
   width: 200px;
   height: 200px;
   gap: 1rem;
+  transition: 0.3s ease;
+}
+
+.statistics:hover {
+  transform: translateY(-10px);
 }
 
 .statistics__title {
@@ -19,6 +24,11 @@
 }
 .statistics__subtitle {
   font-weight: 700;
+  cursor: auto;
+}
+
+.statistics__subtitle::after {
+  content: none;
 }
 
 /* xs */

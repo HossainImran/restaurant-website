@@ -1,0 +1,35 @@
+.section__four {
+  background-image: url("../public/bg5.png");
+}
+
+.satay-img:hover {
+  transform: translate(-10px, 0px);
+}
+
+@media (min-width: 768px) {
+  .section__four {
+    flex-direction: row-reverse;
+  }
+  .four__content__details {
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .four__content__details {
+    padding-left: 4rem;
+  }
+}
+/* xl */
+@media (min-width: 1280px) {
+  .four__content__details {
+    padding-left: 5rem;
+  }
+}
+/* 2xl  */
+@media (min-width: 1536px) {
+  .four__content__details {
+    padding-left: 6rem;
+  }
+}
